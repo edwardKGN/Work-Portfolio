@@ -1,0 +1,5 @@
+Codes are arranged to be ran in order S01 to S03.
+
+S01 cleans up benchmark data to ease comparison with output from Python codes
+S02 ensures benchmark data and comparison data share the same financial ratios and financial years
+S03 calculates deviations between results
