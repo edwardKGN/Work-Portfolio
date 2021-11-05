@@ -71,7 +71,7 @@ class financialData_retail(FR_Valuation.valuation_gen, FR_Profitability.profitab
     """
     
     def analyze_retail(self):
-        print("Analyzing Retail Sector's Financial Ratios")
+        print("Calculating Retail's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()

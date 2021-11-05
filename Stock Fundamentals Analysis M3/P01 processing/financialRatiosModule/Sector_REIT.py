@@ -16,7 +16,7 @@ import numpy as np
 class financialData_REIT(FR_Valuation.valuation_gen, FR_Profitability.profitability_gen, FR_Efficiency.efficiency_gen, FR_Liquidity.liquidity_gen, FR_Solvency.solvency_gen, FR_sub_dividendPaying.dividendPaying, FR_sub_haveSales.haveSales, FR_sub_inventoryHolding.inventoryHolding, financialRatios.financialData_main):
     
     def analyze_REIT(self):
-        print("Analyzing Retail Sector's Financial Ratios")
+        print("Calculating REIT's Financial Ratios")
         
         self.analyzeEfficiency()
         self.analyzeLiquidity()

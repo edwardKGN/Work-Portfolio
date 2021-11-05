@@ -13,45 +13,36 @@ from analysisModule.statisticsModule.statisticsMod import linReg # Apparently it
 from scipy import stats
 
 import math # For isnan() function
+import itertools
 
 class FA:
-    df_quality = pd.DataFrame(columns = ["Financial Ratios", "Condition"])
-    df_growth = pd.DataFrame(columns = ["Financial Ratios", "Growth", "Intercept", "Correlation Coefficient", "Growth Uncertainty", "Intercept Uncertainty"])
     financialYears = []
     
-    # Read FA Output Excel file 
     def __init__(self, xlsx_name, sheet_name, index_col_pos = None):
-        print("Financial Data Object created")
         
-        self.df_input = pd.read_excel(xlsx_name, sheet_name, index_col = index_col_pos)
-        self.df_input = (self.df_input).dropna() # Clean dataframe and remove any irrelevant data
+        xlsx_name = xlsx_name + ".xlsx"
+        self.df_financialRatios = pd.read_excel(xlsx_name, sheet_name, index_col = index_col_pos)
+        (self.df_financialRatios).dropna(inplace = True) # Clean dataframe and remove any irrelevant data
+        
         self.setFinancialYears()
+        
+        column_names =  list(itertools.chain(["Financial Ratios", "Condition"], self.financialYears))
+        self.df_quality = pd.DataFrame(columns = column_names)
+        
+        self.df_growth = pd.DataFrame(columns = ["Financial Ratios", "Growth", "Intercept", "Correlation Coefficient", "Growth Uncertainty", "Intercept Uncertainty"])
     
-    # Getters
-    def getFinancialYears(self):
-        return self.financialYears
+    # Financial Ratios Methods
+    def getFinancialRatios(self):
+        return self.df_financialRatios
     
-    def getInput(self):
-        return self.df_input
-    
-    def getOutput(self, df_option):  
-        if df_option == 0:
-            return self.df_quality
-        elif df_option == 1:
-            return self.df_growth
+    def getFinancialRatios_row(self, data_label):
+        if (self.df_financialRatios.index == data_label).any():       
+            return self.df_financialRatios.loc[data_label].values
         else:
-            print("ERROR - Option not recognized")
-            return 
+            print(data_label, " not found.")
+            return np.array([0, 0, 0, 0, 0])
     
-    # Read Row
-    def getInput_row(self, item):
-        return ((self.df_input.loc[self.df_input[self.df_input.columns[0]] == item]).values[0])[1:]
-    
-    # Setters
-    def setFinancialYears(self):
-        # Assuming consistent formatting of columns: items, source documents, year 00 -> year 05.
-        self.financialYears = (self.df_input.columns.values)[1:(len(self.df_input.columns.values))]
-    
+    # General Output Setters
     def setFirstColumn_element(self, item, df_option):
         if df_option == 0:
             #print("Setting First Column Element:", item)
@@ -62,66 +53,98 @@ class FA:
         else:
             print("ERROR - Option not recognized")
             return 
+        
+    def getAnalysis(self, df_option):  
+        if df_option == 0:
+            return self.df_quality
+        elif df_option == 1:
+            return self.df_growth
+        else:
+            print("ERROR - Option not recognized")
+            return 
     
-    # Applicable to df_quality only
+    # Financial Ratios Quality Methods
+    
     def setCondition_element(self, item, element): 
         self.df_quality.loc[self.df_quality[self.df_quality.columns[0]] == item, "Condition"] = element
+    
+    def setFinancialRatiosQuality(self, financialRatio_label, condition_option, condition_value):
+        self.setFirstColumn_element(financialRatio_label, 0)
         
-    def setQualities_row(self, item, condition_value, condition_option):
-        self.setFirstColumn_element(item, 0)
-        
-        input_row = self.getInput_row(item)
+        FR_row = self.getFinancialRatios_row(financialRatio_label)
         
         if condition_option == 0:
-            ls_quality = input_row == condition_value
-            self.setCondition_element(item, ("==" + str(condition_value)))
+            ls_quality = FR_row == condition_value
+            self.setCondition_element(financialRatio_label, ("==" + str(condition_value)))
         elif condition_option == 1:
-            ls_quality = input_row > condition_value
-            self.setCondition_element(item, (">" + str(condition_value)))
+            ls_quality = FR_row > condition_value
+            self.setCondition_element(financialRatio_label, (">" + str(condition_value)))
         elif condition_option == 2:
-            ls_quality = input_row >= condition_value
-            self.setCondition_element(item, (">=" + str(condition_value)))
+            ls_quality = FR_row >= condition_value
+            self.setCondition_element(financialRatio_label, (">=" + str(condition_value)))
         elif condition_option == 3:
-            ls_quality = input_row < condition_value
-            self.setCondition_element(item, ("<" + str(condition_value)))
+            ls_quality = FR_row < condition_value
+            self.setCondition_element(financialRatio_label, ("<" + str(condition_value)))
         elif condition_option == 4:
-            ls_quality = input_row <= condition_value
-            self.setCondition_element(item, ("<=" + str(condition_value)))
+            ls_quality = FR_row <= condition_value
+            self.setCondition_element(financialRatio_label, ("<=" + str(condition_value)))
         else: 
             print("ERROR - Option not recognized")
             return
         
-        #print(ls_quality)
+        # print(ls_quality)
+        ls_met = []
+        
+        for result in ls_quality:
+            if result:
+                ls_met.append("Met")
+            else: 
+                ls_met.append("Not Met")
+                
+        # print(ls_met)
         
         for index, year in enumerate(self.getFinancialYears()):
             #print(index, year)
-            self.df_quality.loc[self.df_quality[self.df_quality.columns[0]] == item, year] = ls_quality[index]
-    
-    # Applicable to df_growth only
-    def setGrowth(self, item):
-        self.setFirstColumn_element(item, 1)
+            self.df_quality.loc[self.df_quality[self.df_quality.columns[0]] == financialRatio_label, year] = ls_met[index]
+   
+    # Financial Ratios Growth Methods   
+    def setFinancialRatiosGrowth(self, financialRatio_label):
+        self.setFirstColumn_element(financialRatio_label, 1)
         
-        input_row = self.getInput_row(item) 
+        FR_row = self.getFinancialRatios_row(financialRatio_label)
         years = self.getFinancialYears()
         
-        #print("Type Financial Ratios ", type(input_row), "Items: ", input_row)
+        #print("Type Financial Ratios ", type(FR_row), "Items: ", FR_row)
         #print("Type Financial Years ", type(years), "Years: ", years)
         
         #linReg_out = linReg(years, input_row)
         #print(linReg_out, type(linReg_out), linReg_out[0])
         
-        linReg_result = stats.linregress(list(years), list(input_row)) # Use Scipy.stats Linear Regression method       
+        linReg_result = stats.linregress(list(years), list(FR_row)) # Use Scipy.stats Linear Regression method       
         linReg_out = (linReg_result.slope, linReg_result.intercept, linReg_result.rvalue, linReg_result.stderr, linReg_result.intercept_stderr)
         
         #print(self.getOutput(1).columns[1:])
-        for index, column_name in enumerate(self.getOutput(1).columns[1:]):
+        for index, column_name in enumerate(self.getAnalysis(1).columns[1:]):
             #print(index, column_name)
-            self.df_growth.loc[self.df_growth[self.df_growth.columns[0]] == item, column_name] = linReg_out[index]
+            self.df_growth.loc[self.df_growth[self.df_growth.columns[0]] == financialRatio_label, column_name] = linReg_out[index]
+    
+    # Financial Years Methods
+    def getFinancialYears(self): # Getter
+        return self.financialYears
+ 
+    def setFinancialYears(self): # Setter
+        self.financialYears = self.df_financialRatios.columns.values
         
     # Write to Excel
-    def writeOutput(self, doc_name):
+    def writeOut(self, doc_name):
         xlsx_name = doc_name + ".xlsx"
         
+        df_quality = self.getAnalysis(0)
+        df_growth = self.getAnalysis(1)
+        
+        df_quality.set_index(df_quality.columns[0], inplace = True)
+        df_growth.set_index(df_growth.columns[0], inplace = True)
+        
         #print(doc_name , xlsx_name)
-        (self.getOutput(0)).to_excel(("quality_" + xlsx_name), sheet_name = 'output')
-        (self.getOutput(1)).to_excel(("growth_" + xlsx_name), sheet_name = 'output')
+        df_quality.to_excel(("quality_" + xlsx_name), sheet_name = 'output')
+        df_growth.to_excel(("growth_" + xlsx_name), sheet_name = 'output')

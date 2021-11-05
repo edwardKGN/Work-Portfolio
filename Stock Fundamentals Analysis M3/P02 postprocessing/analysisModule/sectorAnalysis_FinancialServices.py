@@ -1,16 +1,16 @@
+from . import FA_Valuation
+from . import FA_Profitability
+from . import FA_Efficiency
+from . import FA_Liquidity
+from . import FA_Solvency
+
+from . import FA_sub_dividendPaying
+from . import FA_sub_haveSales
+from . import FA_sub_inventoryHolding
+
 from . import fundamentalsAnalysis
 
-from . import Analysis_Valuation
-from . import Analysis_Profitability
-from . import Analysis_Efficiency
-from . import Analysis_Liquidity
-from . import Analysis_Solvency
-
-from . import Analysis_sub_dividendPaying
-from . import Analysis_sub_haveSales
-from . import Analysis_sub_inventoryHolding
-
-class sectorAnalysis_FinancialServices(Analysis_Valuation.Analysis_Valuation, Analysis_Profitability.Analysis_Profitability, Analysis_Efficiency.Analysis_Efficiency, Analysis_Liquidity.Analysis_Liquidity, Analysis_Solvency.Analysis_Solvency, Analysis_sub_dividendPaying.Analysis_dividendPaying, Analysis_sub_haveSales.Analysis_haveSales, Analysis_sub_inventoryHolding.Analysis_inventoryHolding, fundamentalsAnalysis.FA):
+class sectorAnalysis_financialServices(FA_Valuation.FA_Valuation, FA_Profitability.FA_Profitability, FA_Efficiency.FA_Efficiency, FA_Liquidity.FA_Liquidity, FA_Solvency.FA_Solvency, FA_sub_dividendPaying.FA_dividendPaying, FA_sub_haveSales.FA_haveSales, FA_sub_inventoryHolding.FA_inventoryHolding, fundamentalsAnalysis.FA):
     
     def analyse_financialServices(self):
         print("Analysing Financial Services's Fundamentals")

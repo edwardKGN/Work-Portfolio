@@ -81,7 +81,7 @@ class financialData_insurance(FR_Valuation.valuation_gen, FR_Profitability.profi
     """
     
     def analyze_insurance(self):
-        print("Analyzing Utilities Sector's Financial Ratios")
+        print("Calculating Insurance's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()

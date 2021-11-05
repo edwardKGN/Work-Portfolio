@@ -71,7 +71,7 @@ class financialData_propDev(FR_Valuation.valuation_gen, FR_Profitability.profita
     """
 
     def analyze_propDev(self):
-        print("Analyzing Retail Sector's Financial Ratios")
+        print("Calculating Property Development's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()

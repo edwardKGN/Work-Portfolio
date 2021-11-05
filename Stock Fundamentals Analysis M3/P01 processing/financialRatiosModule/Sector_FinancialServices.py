@@ -71,7 +71,7 @@ class financialData_financialServices(FR_Valuation.valuation_gen, FR_Profitabili
     """
     
     def analyze_financialServices(self):
-        print("Analyzing Financial Service Sector's Financial Ratios")
+        print("Calculating Financial Service's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()

@@ -1,19 +1,19 @@
+from . import FA_Valuation
+from . import FA_Profitability
+from . import FA_Efficiency
+from . import FA_Liquidity
+from . import FA_Solvency
+
+from . import FA_sub_dividendPaying
+from . import FA_sub_haveSales
+from . import FA_sub_inventoryHolding
+
 from . import fundamentalsAnalysis
 
-from . import Analysis_Valuation
-from . import Analysis_Profitability
-from . import Analysis_Efficiency
-from . import Analysis_Liquidity
-from . import Analysis_Solvency
-
-from . import Analysis_sub_dividendPaying
-from . import Analysis_sub_haveSales
-from . import Analysis_sub_inventoryHolding
-
-class sectorAnalysis_Retail(Analysis_Valuation.Analysis_Valuation, Analysis_Profitability.Analysis_Profitability, Analysis_Efficiency.Analysis_Efficiency, Analysis_Liquidity.Analysis_Liquidity, Analysis_Solvency.Analysis_Solvency, Analysis_sub_dividendPaying.Analysis_dividendPaying, Analysis_sub_haveSales.Analysis_haveSales, Analysis_sub_inventoryHolding.Analysis_inventoryHolding, fundamentalsAnalysis.FA):
+class sectorAnalysis_retail(FA_Valuation.FA_Valuation, FA_Profitability.FA_Profitability, FA_Efficiency.FA_Efficiency, FA_Liquidity.FA_Liquidity, FA_Solvency.FA_Solvency, FA_sub_dividendPaying.FA_dividendPaying, FA_sub_haveSales.FA_haveSales, FA_sub_inventoryHolding.FA_inventoryHolding, fundamentalsAnalysis.FA):
     
     def analyse_retail(self):
-        print("Analysing Retail's Fundamentals")
+        print("Analyzing Retail Sector's Fundamentals Analysis")
         
         self.analyse_valuation()
         self.analyse_profitability()
@@ -22,6 +22,5 @@ class sectorAnalysis_Retail(Analysis_Valuation.Analysis_Valuation, Analysis_Prof
         self.analyse_solvency()
         
         self.analyse_dividendPaying()
-        
         self.analyse_haveSales()
         self.analyse_inventoryHolding()

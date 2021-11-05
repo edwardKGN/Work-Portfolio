@@ -73,7 +73,7 @@ class financialData_finance(FR_Valuation.valuation_gen, FR_Profitability.profita
     """
     
     def analyze_finance(self):
-        print("Analyzing Retail Sector's Financial Ratios")
+        print("Calculating Finance's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()
@@ -100,8 +100,8 @@ class financialData_finance(FR_Valuation.valuation_gen, FR_Profitability.profita
         
         self.setFinancialRatios_row("Leverage Ratio", self.leverageRatio())
         self.setFinancialRatios_row("CET-1 Ratio", self.CET1Ratio())
-        self.setFinancialRatios_row("Loan to Assets Ratio", self.loansToAssets())
-        self.setFinancialRatios_row("Capital Adequacy", self.capitalAdequacy())
+        self.setFinancialRatios_row("Loans to Assets Ratio", self.loansToAssets())
+        self.setFinancialRatios_row("Capital Adequacy Ratio", self.capitalAdequacy())
         self.setFinancialRatios_row("Bad Loan Ratio", self.badLoanRatio())
         self.setFinancialRatios_row("Loan Loss Provision Coverage Ratio", self.loanLossProvisionCoverageRatio())
         

@@ -35,7 +35,7 @@ class haveSales(financialRatios.financialData_main): # Declared as Sales in Fina
             
             self.setFinancialRatios_row("Capital Productivity", self.capitalProductivity())
             self.setFinancialRatios_row("COGS per Sale", self.cogsPerSale())
-            self.setFinancialRatios_row("Working Capital Producitivy", self.workingCapitalProductivity())
+            self.setFinancialRatios_row("Working Capital Productivity", self.workingCapitalProductivity())
             
             self.setFinancialRatios_row("Trade Debtors Productivity", self.tradeDebtorProductivity())
             self.setFinancialRatios_row("Trade Debtors Days", self.tradeDebtorDays())

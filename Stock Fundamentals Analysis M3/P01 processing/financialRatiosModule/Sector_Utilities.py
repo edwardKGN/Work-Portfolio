@@ -71,7 +71,7 @@ class financialData_utilities(FR_Valuation.valuation_gen, FR_Profitability.profi
     """
     
     def analyze_utilities(self):
-        print("Analyzing Utilities Sector's Financial Ratios")
+        print("Calculating Utilities's Financial Ratios")
         
         self.analyzeValuation()
         self.analyzeProfitability()
