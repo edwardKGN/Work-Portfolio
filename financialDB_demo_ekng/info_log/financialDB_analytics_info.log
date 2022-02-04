@@ -1,0 +1,115 @@
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:39,791]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:39,950]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:39,950]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:39,950]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:39,952]: Applying general financial ratio analysis
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,104]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,121]: Sales data found
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,171]: Stock Inventory data found
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,184]: Sales data found
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,198]: Writing out to Test_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 16:12:40,316]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 16:13:33,749]: No data for Test from 2015 to 2022 found in database.
+<ERROR> financialDB_analytics_logger [2022-02-04 17:30:06,055]: Test does not exist in database
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,264]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,413]: There are no financial values for year 2022
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,413]: There are no financial values for year 2021
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,413]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,414]: Company's industry is REIT, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,472]: Dividend data found. Proceeding with analysis
+<WARNING> financialDB_analytics_logger [2022-02-04 17:30:25,490]: Sales not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:30:25,490]: Sales data not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:30:25,490]: Stock Inventory not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:30:25,490]: Stock Inventory data not found
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,555]: Writing out to Test_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:25,667]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,695]: Data for Test from 2015 to 2020 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,853]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,853]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,853]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,855]: Company's industry is Banking, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:42,927]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:43,007]: Writing out to Test_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:30:43,105]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:03,883]: Data for Test  from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,078]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,078]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,078]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,080]: Company's industry is Banking, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,168]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,267]: Writing out to Test _FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:04,358]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,638]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,782]: There are no financial values for year 2022
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,782]: There are no financial values for year 2021
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,782]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,784]: Company's industry is REIT, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,844]: Dividend data found. Proceeding with analysis
+<WARNING> financialDB_analytics_logger [2022-02-04 17:31:18,861]: Sales not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:31:18,861]: Sales data not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:31:18,861]: Stock Inventory not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:31:18,862]: Stock Inventory data not found
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:18,929]: Writing out to Test_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:19,012]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,750]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,918]: There are no financial values for year 2022
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,918]: There are no financial values for year 2021
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,918]: There are no financial values for year 2020
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,919]: There are no financial values for year 2019
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,919]: There are no financial values for year 2018
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,919]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,919]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,919]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,920]: Company's industry is Insurance, applying specific ratios for it
+<WARNING> financialDB_analytics_logger [2022-02-04 17:31:28,966]: No dividend data found
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:28,979]: Writing out to Test_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:31:29,077]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:46,758]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:46,912]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:46,913]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:46,913]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:46,914]: Applying general financial ratio analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,027]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,044]: Sales data found
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,092]: Stock Inventory data found
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,104]: Sales data found
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,116]: Writing out to Test General_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:47,210]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:58,747]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:58,938]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:58,938]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:58,938]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:58,940]: Company's industry is Banking, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:59,027]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:59,125]: Writing out to Test Banking_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:37:59,214]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,667]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,823]: There are no financial values for year 2022
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,824]: There are no financial values for year 2021
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,824]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,825]: Company's industry is REIT, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,881]: Dividend data found. Proceeding with analysis
+<WARNING> financialDB_analytics_logger [2022-02-04 17:38:18,898]: Sales not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:38:18,898]: Sales data not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:38:18,898]: Stock Inventory not found
+<WARNING> financialDB_analytics_logger [2022-02-04 17:38:18,898]: Stock Inventory data not found
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:18,961]: Writing out to Test REIT_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:38:19,043]: ~~~ End of Analytics ~~~
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:04,734]: Data for Test from 2015 to 2022 found in database.
+
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:04,898]: There are no financial values for year 2017
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:04,898]: There are no financial values for year 2016
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:04,898]: There are no financial values for year 2015
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:04,899]: Company's industry is Insurance, applying specific ratios for it
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:05,010]: Dividend data found. Proceeding with analysis
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:05,058]: Writing out to Test Insurance_FR_output.xlsx
+<INFO> financialDB_analytics_logger [2022-02-04 17:43:05,168]: ~~~ End of Analytics ~~~

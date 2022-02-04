@@ -1,0 +1,1016 @@
+<INFO> financialDB_operations_logger [2022-02-04 15:51:02,457]: Rows inserted > companies: 4
+<INFO> financialDB_operations_logger [2022-02-04 15:51:10,210]: Rows inserted > financial_statement_item: 59
+<INFO> financialDB_operations_logger [2022-02-04 15:51:42,291]: Rows inserted > companies: 0
+<INFO> financialDB_operations_logger [2022-02-04 15:51:42,388]: Rows inserted > financial_statement_item: 0
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,778]: Test General found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,779]: Test Banking found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,780]: Test REIT found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,784]: Test Insurance found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,784]: Rows inserted > companies: 0
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,806]: 'Amortization' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,807]: 'Capital Expenditure' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,808]: 'Cash and Cash Equivalent' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,809]: 'Commission Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,810]: 'Common Equity Tier 1 Capital' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,811]: 'Cost of Goods Sold' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,812]: 'Current Accounts Deposit' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,814]: 'Current Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,815]: 'Current Liabilities' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,816]: 'Depreciation' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,817]: 'Free Cash Flow' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,818]: 'Fixed Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,819]: 'Gains on Investment Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,820]: 'Gains on Property Sales' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,821]: 'Gross Dividend Payout per Share' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,822]: 'Gross Loans and Acceptance' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,824]: 'Intangible Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,825]: 'Interest Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,826]: 'Interest Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,827]: 'Investment Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,828]: 'Investment Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,829]: 'Investment Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,831]: 'Losses on Property Sales' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,832]: 'Losses on Investment Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,833]: 'Management Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,834]: 'Net Cash Flow from Financing' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,835]: 'Net Cash Flow from Investing' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,836]: 'Net Cash Flow from Operations' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,838]: 'Net Claims' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,839]: 'Net Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,840]: 'Net Operating Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,841]: 'Net Premiums Earned' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,842]: 'Non-Interest Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,844]: 'Non-Interest Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,845]: 'Operating Expense' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,846]: 'Operating Profit' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,847]: 'Operating Revenue' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,850]: 'Other Income' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,852]: 'Outstanding Shares' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,853]: 'Property Operating Expenses' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,854]: 'Provision for Credit Loss' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,855]: 'Rent Increases' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,855]: 'Revenue' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,856]: 'Risk Weighted Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,858]: 'Sales' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,859]: 'Savings Accounts Deposit' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,860]: 'Share Unit Price' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,861]: 'Shareholders Equity' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,862]: 'Stock Inventory' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,863]: 'Tier 1 Capital' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,864]: 'Tier 2 Capital' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,865]: 'Total Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,866]: 'Total Debt' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,867]: 'Total Deposits' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,869]: 'Total Expenses' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,870]: 'Total Liabilities' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,871]: 'Total Non-Performing Assets' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,872]: 'Trade Creditors' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,873]: 'Trade Debtors' found in database, skipping
+<INFO> financialDB_operations_logger [2022-02-04 15:52:53,874]: Rows inserted > financial_statement_item: 0
+<INFO> financialDB_operations_logger [2022-02-04 15:59:10,595]: Gross Dividend Payout per Share data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:10,688]: Outstanding Shares data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:10,793]: Share Unit Price data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:10,890]: Trade Debtors data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:10,979]: Trade Creditors data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,066]: Sales data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,178]: Cash and Cash Equivalent data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,266]: Free Cash Flow data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,364]: Net Cash Flow from Financing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,461]: Net Cash Flow from Investing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,571]: Net Cash Flow from Operations data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,694]: Current Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,802]: Current Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:11,913]: Fixed Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,024]: Intangible Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,133]: Shareholders Equity data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,243]: Stock Inventory data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,353]: Total Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,463]: Total Debt data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,583]: Total Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,702]: Amortization data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,815]: Cost of Goods Sold data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:12,933]: Depreciation data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,046]: Interest Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,157]: Net Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,288]: Operating Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,384]: Operating Profit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,485]: Revenue data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,584]: Total Expenses data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,705]: Gross Dividend Payout per Share data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,814]: Outstanding Shares data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:13,925]: Share Unit Price data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,035]: Trade Debtors data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,145]: Trade Creditors data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,254]: Sales data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,365]: Cash and Cash Equivalent data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,476]: Free Cash Flow data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,586]: Net Cash Flow from Financing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,705]: Net Cash Flow from Investing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,826]: Net Cash Flow from Operations data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:14,938]: Current Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,048]: Current Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,159]: Fixed Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,253]: Intangible Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,389]: Shareholders Equity data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,489]: Stock Inventory data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,587]: Total Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,684]: Total Debt data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,785]: Total Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:15,928]: Amortization data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,026]: Cost of Goods Sold data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,125]: Depreciation data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,222]: Interest Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,323]: Net Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,432]: Operating Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,531]: Operating Profit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,633]: Revenue data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,729]: Total Expenses data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,838]: Gross Dividend Payout per Share data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:16,937]: Outstanding Shares data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,067]: Share Unit Price data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,180]: Trade Debtors data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,309]: Trade Creditors data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,432]: Sales data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,544]: Cash and Cash Equivalent data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,654]: Free Cash Flow data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,750]: Net Cash Flow from Financing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,862]: Net Cash Flow from Investing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:17,961]: Net Cash Flow from Operations data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,071]: Current Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,170]: Current Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,278]: Fixed Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,380]: Intangible Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,490]: Shareholders Equity data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,600]: Stock Inventory data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,721]: Total Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,820]: Total Debt data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:18,918]: Total Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:19,016]: Amortization data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:19,116]: Cost of Goods Sold data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:19,260]: Depreciation data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:19,904]: Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:20,512]: Net Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:20,623]: Operating Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:20,731]: Operating Profit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:20,841]: Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:20,950]: Total Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,029]: Gross Dividend Payout per Share data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,149]: Outstanding Shares data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,270]: Share Unit Price data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,346]: Trade Debtors data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,486]: Trade Creditors data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,633]: Sales data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,764]: Cash and Cash Equivalent data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,864]: Free Cash Flow data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:21,985]: Net Cash Flow from Financing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,117]: Net Cash Flow from Investing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,259]: Net Cash Flow from Operations data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,371]: Current Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,491]: Current Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,613]: Fixed Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,755]: Intangible Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:22,876]: Shareholders Equity data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,008]: Stock Inventory data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,140]: Total Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,262]: Total Debt data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,370]: Total Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,493]: Amortization data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,591]: Cost of Goods Sold data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,724]: Depreciation data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,854]: Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:23,975]: Net Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,085]: Operating Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,196]: Operating Profit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,302]: Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,415]: Total Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,525]: Gross Dividend Payout per Share data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,636]: Outstanding Shares data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,745]: Share Unit Price data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,854]: Trade Debtors data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:24,974]: Trade Creditors data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,097]: Sales data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,194]: Cash and Cash Equivalent data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,294]: Free Cash Flow data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,393]: Net Cash Flow from Financing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,493]: Net Cash Flow from Investing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,592]: Net Cash Flow from Operations data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,691]: Current Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,800]: Current Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:25,900]: Fixed Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,045]: Intangible Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,143]: Shareholders Equity data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,263]: Stock Inventory data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,372]: Total Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,493]: Total Debt data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,618]: Total Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,724]: Amortization data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,857]: Cost of Goods Sold data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:26,993]: Depreciation data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,119]: Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,240]: Net Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,337]: Operating Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,549]: Operating Profit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,646]: Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,748]: Total Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,853]: Rows inserted > companies: 145
+<INFO> financialDB_operations_logger [2022-02-04 15:59:27,853]: ~~~ End of financial statement insertion script ~~~
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,448]: Cash and Cash Equivalent data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,567]: Free Cash Flow data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,650]: Net Cash Flow from Financing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,739]: Net Cash Flow from Investing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,816]: Net Cash Flow from Operations data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,903]: Gross Dividend Payout per Share data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:50,991]: Outstanding Shares data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,090]: Share Unit Price data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,187]: Interest Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,309]: Interest Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,429]: Net Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,562]: Non-Interest Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,672]: Operating Profit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,782]: Revenue data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:51,898]: Non-Interest Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,024]: Operating Revenue data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,112]: Depreciation data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,255]: Common Equity Tier 1 Capital data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,354]: Risk Weighted Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,463]: Tier 1 Capital data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,574]: Tier 2 Capital data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,722]: Current Accounts Deposit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,826]: Savings Accounts Deposit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:52,956]: Amortization data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,071]: Current Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,188]: Current Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,301]: Gross Loans and Acceptance data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,420]: Provision for Credit Loss data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,535]: Total Non-Performing Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,651]: Total Expenses data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,766]: Intangible Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,860]: Shareholders Equity data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:53,955]: Total Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,068]: Total Deposits data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,187]: Total Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,303]: Operating Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,407]: Cash and Cash Equivalent data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,523]: Free Cash Flow data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,628]: Net Cash Flow from Financing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,744]: Net Cash Flow from Investing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,861]: Net Cash Flow from Operations data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:54,976]: Gross Dividend Payout per Share data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,092]: Outstanding Shares data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,197]: Share Unit Price data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,302]: Interest Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,406]: Interest Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,520]: Net Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,649]: Non-Interest Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,762]: Operating Profit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:55,893]: Revenue data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,008]: Non-Interest Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,124]: Operating Revenue data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,240]: Depreciation data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,365]: Common Equity Tier 1 Capital data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,472]: Risk Weighted Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,587]: Tier 1 Capital data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,714]: Tier 2 Capital data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,827]: Current Accounts Deposit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:56,936]: Savings Accounts Deposit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:57,051]: Amortization data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:57,405]: Current Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,344]: Current Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,459]: Gross Loans and Acceptance data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,574]: Provision for Credit Loss data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,683]: Total Non-Performing Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,796]: Total Expenses data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:58,911]: Intangible Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,020]: Shareholders Equity data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,137]: Total Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,253]: Total Deposits data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,357]: Total Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,450]: Operating Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,580]: Cash and Cash Equivalent data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,683]: Free Cash Flow data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,786]: Net Cash Flow from Financing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,894]: Net Cash Flow from Investing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:31:59,998]: Net Cash Flow from Operations data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,137]: Gross Dividend Payout per Share data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,252]: Outstanding Shares data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,367]: Share Unit Price data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,483]: Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,600]: Interest Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,716]: Net Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,831]: Non-Interest Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:00,945]: Operating Profit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,066]: Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,185]: Non-Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,301]: Operating Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,405]: Depreciation data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,499]: Common Equity Tier 1 Capital data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,603]: Risk Weighted Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,732]: Tier 1 Capital data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,845]: Tier 2 Capital data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:01,993]: Current Accounts Deposit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,104]: Savings Accounts Deposit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,225]: Amortization data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,357]: Current Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,509]: Current Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,661]: Gross Loans and Acceptance data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,760]: Provision for Credit Loss data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,870]: Total Non-Performing Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:02,981]: Total Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,101]: Intangible Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,201]: Shareholders Equity data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,322]: Total Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,443]: Total Deposits data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,608]: Total Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,722]: Operating Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:03,845]: Cash and Cash Equivalent data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:04,001]: Free Cash Flow data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:04,117]: Net Cash Flow from Financing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:04,242]: Net Cash Flow from Investing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:04,359]: Net Cash Flow from Operations data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:04,701]: Gross Dividend Payout per Share data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:05,698]: Outstanding Shares data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:05,834]: Share Unit Price data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:05,950]: Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,065]: Interest Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,157]: Net Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,265]: Non-Interest Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,368]: Operating Profit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,474]: Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,599]: Non-Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,773]: Operating Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:06,889]: Depreciation data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,013]: Common Equity Tier 1 Capital data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,154]: Risk Weighted Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,269]: Tier 1 Capital data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,385]: Tier 2 Capital data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,504]: Current Accounts Deposit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,621]: Savings Accounts Deposit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,748]: Amortization data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,842]: Current Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:07,981]: Current Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,107]: Gross Loans and Acceptance data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,233]: Provision for Credit Loss data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,337]: Total Non-Performing Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,441]: Total Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,557]: Intangible Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,683]: Shareholders Equity data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,789]: Total Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:08,904]: Total Deposits data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,024]: Total Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,138]: Operating Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,254]: Cash and Cash Equivalent data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,382]: Free Cash Flow data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,495]: Net Cash Flow from Financing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,622]: Net Cash Flow from Investing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,729]: Net Cash Flow from Operations data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,844]: Gross Dividend Payout per Share data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:09,960]: Outstanding Shares data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,075]: Share Unit Price data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,192]: Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,308]: Interest Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,435]: Net Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,550]: Non-Interest Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:10,677]: Operating Profit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:11,097]: Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,125]: Non-Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,297]: Operating Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,400]: Depreciation data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,504]: Common Equity Tier 1 Capital data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,622]: Risk Weighted Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,715]: Tier 1 Capital data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,796]: Tier 2 Capital data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:12,910]: Current Accounts Deposit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,028]: Savings Accounts Deposit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,154]: Amortization data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,276]: Current Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,408]: Current Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,540]: Gross Loans and Acceptance data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,661]: Provision for Credit Loss data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,804]: Total Non-Performing Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:13,925]: Total Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,047]: Intangible Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,169]: Shareholders Equity data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,289]: Total Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,411]: Total Deposits data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,543]: Total Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,697]: Operating Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,839]: Rows inserted > companies: 180
+<INFO> financialDB_operations_logger [2022-02-04 16:32:14,839]: ~~~ End of financial statement insertion script ~~~
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,368]: Outstanding Shares data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,555]: Free Cash Flow data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,656]: Cash and Cash Equivalent data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,760]: Net Cash Flow from Financing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,853]: Net Cash Flow from Investing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:47,980]: Net Cash Flow from Operations data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,094]: Current Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,209]: Current Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,313]: Intangible Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,425]: Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,535]: Total Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,655]: Total Debt data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,777]: Total Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:48,889]: Commission Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,031]: Cost of Goods Sold data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,186]: Interest Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,309]: Investment Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,421]: Investment Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,530]: Management Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,662]: Net Claims data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,784]: Losses on Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,893]: Gains on Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:49,999]: Net Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,091]: Net Premiums Earned data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,187]: Operating Profit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,302]: Revenue data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,419]: Shareholders Equity data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,535]: Amortization data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,651]: Depreciation data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,767]: Gross Dividend Payout per Share data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:50,893]: Share Unit Price data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,009]: Total Expenses data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,125]: Outstanding Shares data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,241]: Free Cash Flow data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,357]: Cash and Cash Equivalent data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,472]: Net Cash Flow from Financing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,567]: Net Cash Flow from Investing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,683]: Net Cash Flow from Operations data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,798]: Current Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:51,915]: Current Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,030]: Intangible Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,147]: Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,273]: Total Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,390]: Total Debt data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,504]: Total Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,619]: Commission Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,738]: Cost of Goods Sold data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,863]: Interest Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:52,957]: Investment Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:53,062]: Investment Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:53,168]: Management Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:53,272]: Net Claims data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:53,378]: Losses on Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:54,703]: Gains on Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:54,818]: Net Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:54,914]: Net Premiums Earned data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,018]: Operating Profit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,146]: Revenue data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,259]: Shareholders Equity data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,366]: Amortization data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,480]: Depreciation data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,586]: Gross Dividend Payout per Share data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,707]: Share Unit Price data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,830]: Total Expenses data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:55,939]: Outstanding Shares data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,048]: Free Cash Flow data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,170]: Cash and Cash Equivalent data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,355]: Net Cash Flow from Financing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,461]: Net Cash Flow from Investing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,586]: Net Cash Flow from Operations data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,715]: Current Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,833]: Current Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:56,947]: Intangible Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,063]: Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,179]: Total Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,296]: Total Debt data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,399]: Total Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,517]: Commission Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,635]: Cost of Goods Sold data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,752]: Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,867]: Investment Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:57,995]: Investment Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,101]: Management Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,223]: Net Claims data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,330]: Losses on Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,447]: Gains on Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,563]: Net Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,679]: Net Premiums Earned data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,796]: Operating Profit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:58,923]: Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,038]: Shareholders Equity data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,165]: Amortization data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,280]: Depreciation data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,385]: Gross Dividend Payout per Share data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,490]: Share Unit Price data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,607]: Total Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,734]: Outstanding Shares data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,850]: Free Cash Flow data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:41:59,965]: Cash and Cash Equivalent data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:00,080]: Net Cash Flow from Financing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:00,199]: Net Cash Flow from Investing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:00,313]: Net Cash Flow from Operations data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:00,427]: Current Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:00,540]: Current Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:01,859]: Intangible Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:01,992]: Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,111]: Total Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,246]: Total Debt data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,382]: Total Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,528]: Commission Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,687]: Cost of Goods Sold data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,802]: Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:02,929]: Investment Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,046]: Investment Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,162]: Management Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,277]: Net Claims data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,390]: Losses on Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,509]: Gains on Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,635]: Net Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,752]: Net Premiums Earned data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,867]: Operating Profit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:03,972]: Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,088]: Shareholders Equity data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,204]: Amortization data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,320]: Depreciation data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,434]: Gross Dividend Payout per Share data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,562]: Share Unit Price data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,678]: Total Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,794]: Outstanding Shares data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,899]: Free Cash Flow data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:04,997]: Cash and Cash Equivalent data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,136]: Net Cash Flow from Financing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,284]: Net Cash Flow from Investing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,400]: Net Cash Flow from Operations data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,515]: Current Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,620]: Current Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,738]: Intangible Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,830]: Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:05,972]: Total Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,073]: Total Debt data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,176]: Total Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,304]: Commission Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,397]: Cost of Goods Sold data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,577]: Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,694]: Investment Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,833]: Investment Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:06,934]: Management Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,077]: Net Claims data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,201]: Losses on Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,331]: Gains on Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,452]: Net Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,605]: Net Premiums Earned data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,706]: Operating Profit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,823]: Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:07,960]: Shareholders Equity data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:08,076]: Amortization data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:08,221]: Depreciation data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:08,917]: Gross Dividend Payout per Share data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:09,464]: Share Unit Price data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:09,601]: Total Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:42:09,715]: Rows inserted > companies: 160
+<INFO> financialDB_operations_logger [2022-02-04 16:42:09,715]: ~~~ End of financial statement insertion script ~~~
+<INFO> financialDB_operations_logger [2022-02-04 16:43:25,006]: Cash and Cash Equivalent data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,118]: Free Cash Flow data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,229]: Net Cash Flow from Operations data for 2020 not found, inserting data as new entry
+<ERROR> financialDB_operations_logger [2022-02-04 16:43:26,334]: Net Cash Flow from Investint is not found in database
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,338]: Net Cash Flow from Financing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,440]: Gross Dividend Payout per Share data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,546]: Share Unit Price data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,683]: Depreciation data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,798]: Capital Expenditure data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:26,903]: Total Debt data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,045]: Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,188]: Total Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,309]: Total Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,453]: Shareholders Equity data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,584]: Current Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,706]: Current Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,838]: Net Operating Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:27,971]: Net Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,126]: Amortization data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,267]: Losses on Property Sales data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,397]: Gains on Property Sales data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,508]: Interest Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,615]: Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,735]: Property Operating Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,847]: Total Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:28,962]: Management Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,079]: Rent Increases data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,185]: Outstanding Shares data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,275]: Other Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,383]: Cash and Cash Equivalent data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,485]: Free Cash Flow data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,591]: Net Cash Flow from Operations data for 2019 not found, inserting data as new entry
+<ERROR> financialDB_operations_logger [2022-02-04 16:43:29,696]: Net Cash Flow from Investint is not found in database
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,699]: Net Cash Flow from Financing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,812]: Gross Dividend Payout per Share data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:29,924]: Share Unit Price data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,039]: Depreciation data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,156]: Capital Expenditure data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,268]: Total Debt data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,376]: Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,481]: Total Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,600]: Total Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,716]: Shareholders Equity data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,833]: Current Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:30,937]: Current Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,042]: Net Operating Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,148]: Net Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,263]: Amortization data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,388]: Losses on Property Sales data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,505]: Gains on Property Sales data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,619]: Interest Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,726]: Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,843]: Property Operating Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:31,959]: Total Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:32,072]: Management Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:33,481]: Rent Increases data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:33,590]: Outstanding Shares data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:33,704]: Other Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:33,841]: Cash and Cash Equivalent data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:33,947]: Free Cash Flow data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,062]: Net Cash Flow from Operations data for 2018 not found, inserting data as new entry
+<ERROR> financialDB_operations_logger [2022-02-04 16:43:34,176]: Net Cash Flow from Investint is not found in database
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,179]: Net Cash Flow from Financing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,292]: Gross Dividend Payout per Share data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,421]: Share Unit Price data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,537]: Depreciation data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,653]: Capital Expenditure data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,758]: Total Debt data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,874]: Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:34,978]: Total Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,084]: Total Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,177]: Shareholders Equity data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,282]: Current Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,364]: Current Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,490]: Net Operating Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,596]: Net Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,690]: Amortization data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,804]: Losses on Property Sales data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:35,931]: Gains on Property Sales data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,048]: Interest Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,186]: Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,295]: Property Operating Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,416]: Total Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,537]: Management Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,659]: Rent Increases data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,780]: Outstanding Shares data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:36,923]: Other Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,034]: Cash and Cash Equivalent data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,157]: Free Cash Flow data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,277]: Net Cash Flow from Operations data for 2017 not found, inserting data as new entry
+<ERROR> financialDB_operations_logger [2022-02-04 16:43:37,406]: Net Cash Flow from Investint is not found in database
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,408]: Net Cash Flow from Financing data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,529]: Gross Dividend Payout per Share data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,640]: Share Unit Price data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,756]: Depreciation data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,872]: Capital Expenditure data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:37,999]: Total Debt data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,115]: Interest Expense data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,251]: Total Assets data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,367]: Total Liabilities data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,484]: Shareholders Equity data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,599]: Current Assets data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,716]: Current Liabilities data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,810]: Net Operating Income data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:38,918]: Net Income data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:39,045]: Amortization data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:39,161]: Losses on Property Sales data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:39,277]: Gains on Property Sales data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:39,371]: Interest Income data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:39,487]: Revenue data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:40,736]: Property Operating Expenses data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:40,919]: Total Expenses data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,078]: Management Expense data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,194]: Rent Increases data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,321]: Outstanding Shares data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,436]: Other Income data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,552]: Cash and Cash Equivalent data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,668]: Free Cash Flow data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,784]: Net Cash Flow from Operations data for 2016 not found, inserting data as new entry
+<ERROR> financialDB_operations_logger [2022-02-04 16:43:41,898]: Net Cash Flow from Investint is not found in database
+<INFO> financialDB_operations_logger [2022-02-04 16:43:41,901]: Net Cash Flow from Financing data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,016]: Gross Dividend Payout per Share data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,121]: Share Unit Price data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,239]: Depreciation data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,352]: Capital Expenditure data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,468]: Total Debt data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,596]: Interest Expense data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,711]: Total Assets data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,838]: Total Liabilities data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:42,953]: Shareholders Equity data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,070]: Current Assets data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,175]: Current Liabilities data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,312]: Net Operating Income data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,407]: Net Income data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,512]: Amortization data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,616]: Losses on Property Sales data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,732]: Gains on Property Sales data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,837]: Interest Income data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:43,954]: Revenue data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,058]: Property Operating Expenses data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,195]: Total Expenses data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,313]: Management Expense data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,428]: Rent Increases data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,543]: Outstanding Shares data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,671]: Other Income data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,784]: Rows inserted > companies: 140
+<INFO> financialDB_operations_logger [2022-02-04 16:43:44,784]: ~~~ End of financial statement insertion script ~~~
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,011]: Cash and Cash Equivalent data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,012]: Free Cash Flow data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,013]: Net Cash Flow from Operations data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,015]: Net Cash Flow from Investing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,201]: Net Cash Flow from Financing data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,203]: Gross Dividend Payout per Share data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,204]: Share Unit Price data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,206]: Depreciation data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,208]: Capital Expenditure data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,210]: Total Debt data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,212]: Interest Expense data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,214]: Total Assets data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,215]: Total Liabilities data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,217]: Shareholders Equity data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,219]: Current Assets data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,221]: Current Liabilities data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,223]: Net Operating Income data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,225]: Net Income data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,226]: Amortization data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,228]: Losses on Property Sales data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,229]: Gains on Property Sales data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,231]: Interest Income data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,232]: Revenue data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,234]: Property Operating Expenses data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,235]: Total Expenses data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,236]: Management Expense data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,239]: Rent Increases data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,241]: Outstanding Shares data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,243]: Other Income data for 2020  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,246]: Cash and Cash Equivalent data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,247]: Free Cash Flow data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,249]: Net Cash Flow from Operations data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,250]: Net Cash Flow from Investing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,343]: Net Cash Flow from Financing data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,344]: Gross Dividend Payout per Share data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,345]: Share Unit Price data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,347]: Depreciation data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,349]: Capital Expenditure data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,351]: Total Debt data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,352]: Interest Expense data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,353]: Total Assets data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,354]: Total Liabilities data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,356]: Shareholders Equity data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,357]: Current Assets data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,358]: Current Liabilities data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,360]: Net Operating Income data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,361]: Net Income data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,362]: Amortization data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,364]: Losses on Property Sales data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,365]: Gains on Property Sales data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,366]: Interest Income data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,367]: Revenue data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,369]: Property Operating Expenses data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,370]: Total Expenses data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,371]: Management Expense data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,372]: Rent Increases data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,373]: Outstanding Shares data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,375]: Other Income data for 2019  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,376]: Cash and Cash Equivalent data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,377]: Free Cash Flow data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,378]: Net Cash Flow from Operations data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,380]: Net Cash Flow from Investing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,550]: Net Cash Flow from Financing data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,552]: Gross Dividend Payout per Share data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,554]: Share Unit Price data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,555]: Depreciation data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,557]: Capital Expenditure data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,559]: Total Debt data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,561]: Interest Expense data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,563]: Total Assets data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,565]: Total Liabilities data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,567]: Shareholders Equity data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,569]: Current Assets data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,571]: Current Liabilities data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,573]: Net Operating Income data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,574]: Net Income data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,576]: Amortization data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,578]: Losses on Property Sales data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,580]: Gains on Property Sales data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,582]: Interest Income data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,584]: Revenue data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,586]: Property Operating Expenses data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,588]: Total Expenses data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,590]: Management Expense data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,591]: Rent Increases data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,593]: Outstanding Shares data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,594]: Other Income data for 2018  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,596]: Cash and Cash Equivalent data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,597]: Free Cash Flow data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,599]: Net Cash Flow from Operations data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,600]: Net Cash Flow from Investing data for 2017 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,687]: Net Cash Flow from Financing data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,689]: Gross Dividend Payout per Share data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,691]: Share Unit Price data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,692]: Depreciation data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,694]: Capital Expenditure data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,696]: Total Debt data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,698]: Interest Expense data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,700]: Total Assets data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,702]: Total Liabilities data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,704]: Shareholders Equity data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,706]: Current Assets data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,708]: Current Liabilities data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,710]: Net Operating Income data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,712]: Net Income data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,714]: Amortization data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,715]: Losses on Property Sales data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,717]: Gains on Property Sales data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,719]: Interest Income data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,721]: Revenue data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,723]: Property Operating Expenses data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,724]: Total Expenses data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,726]: Management Expense data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,728]: Rent Increases data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,730]: Outstanding Shares data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,732]: Other Income data for 2017  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,734]: Cash and Cash Equivalent data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,736]: Free Cash Flow data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,737]: Net Cash Flow from Operations data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,739]: Net Cash Flow from Investing data for 2016 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,838]: Net Cash Flow from Financing data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,840]: Gross Dividend Payout per Share data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,842]: Share Unit Price data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,844]: Depreciation data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,846]: Capital Expenditure data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,848]: Total Debt data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,850]: Interest Expense data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,852]: Total Assets data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,854]: Total Liabilities data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,856]: Shareholders Equity data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,857]: Current Assets data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,859]: Current Liabilities data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,860]: Net Operating Income data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,861]: Net Income data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,863]: Amortization data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,865]: Losses on Property Sales data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,866]: Gains on Property Sales data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,868]: Interest Income data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,869]: Revenue data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,871]: Property Operating Expenses data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,872]: Total Expenses data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,874]: Management Expense data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,875]: Rent Increases data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,876]: Outstanding Shares data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,877]: Other Income data for 2016  found, skipping
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,878]: Rows inserted > companies: 5
+<INFO> financialDB_operations_logger [2022-02-04 16:44:06,878]: ~~~ End of financial statement insertion script ~~~
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,037]: Outstanding Shares data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,247]: Free Cash Flow data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,362]: Cash and Cash Equivalent data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,467]: Net Cash Flow from Financing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,604]: Net Cash Flow from Investing data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,736]: Net Cash Flow from Operations data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:08,870]: Current Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,013]: Current Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,155]: Intangible Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,297]: Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,430]: Total Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,584]: Total Debt data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,716]: Total Liabilities data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,826]: Commission Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:09,948]: Cost of Goods Sold data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,068]: Interest Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,212]: Investment Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,333]: Investment Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,453]: Management Expense data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,570]: Net Claims data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,686]: Losses on Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,791]: Gains on Investment Assets data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:10,917]: Net Income data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,033]: Net Premiums Earned data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,139]: Operating Profit data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,254]: Revenue data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,371]: Shareholders Equity data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,486]: Amortization data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,602]: Depreciation data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,718]: Gross Dividend Payout per Share data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,835]: Share Unit Price data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:11,950]: Total Expenses data for 2022 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,044]: Outstanding Shares data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,149]: Free Cash Flow data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,264]: Cash and Cash Equivalent data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,372]: Net Cash Flow from Financing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,485]: Net Cash Flow from Investing data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,601]: Net Cash Flow from Operations data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,728]: Current Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,844]: Current Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:12,960]: Intangible Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,076]: Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,192]: Total Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,327]: Total Debt data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,446]: Total Liabilities data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,562]: Commission Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,688]: Cost of Goods Sold data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,805]: Interest Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:13,931]: Investment Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,349]: Investment Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,467]: Management Expense data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,582]: Net Claims data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,732]: Losses on Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,846]: Gains on Investment Assets data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:15,963]: Net Income data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,083]: Net Premiums Earned data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,198]: Operating Profit data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,315]: Revenue data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,420]: Shareholders Equity data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,580]: Amortization data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,684]: Depreciation data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,800]: Gross Dividend Payout per Share data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:16,905]: Share Unit Price data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,022]: Total Expenses data for 2021 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,148]: Outstanding Shares data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,263]: Free Cash Flow data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,369]: Cash and Cash Equivalent data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,485]: Net Cash Flow from Financing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,600]: Net Cash Flow from Investing data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,716]: Net Cash Flow from Operations data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,866]: Current Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:17,981]: Current Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,086]: Intangible Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,202]: Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,318]: Total Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,434]: Total Debt data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,550]: Total Liabilities data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,676]: Commission Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,828]: Cost of Goods Sold data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:18,929]: Interest Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,045]: Investment Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,160]: Investment Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,277]: Management Expense data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,387]: Net Claims data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,497]: Losses on Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,607]: Gains on Investment Assets data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,739]: Net Income data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,849]: Net Premiums Earned data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:19,979]: Operating Profit data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,091]: Revenue data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,222]: Shareholders Equity data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,345]: Amortization data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,477]: Depreciation data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,608]: Gross Dividend Payout per Share data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,743]: Share Unit Price data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,874]: Total Expenses data for 2020 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:20,996]: Outstanding Shares data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:21,112]: Free Cash Flow data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:21,228]: Cash and Cash Equivalent data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:21,352]: Net Cash Flow from Financing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:22,560]: Net Cash Flow from Investing data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:22,698]: Net Cash Flow from Operations data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:22,803]: Current Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:22,919]: Current Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,034]: Intangible Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,139]: Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,267]: Total Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,393]: Total Debt data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,508]: Total Liabilities data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,616]: Commission Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,730]: Cost of Goods Sold data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,846]: Interest Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:23,962]: Investment Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,089]: Investment Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,187]: Management Expense data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,313]: Net Claims data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,430]: Losses on Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,534]: Gains on Investment Assets data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,639]: Net Income data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,743]: Net Premiums Earned data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,837]: Operating Profit data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:24,943]: Revenue data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,058]: Shareholders Equity data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,185]: Amortization data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,321]: Depreciation data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,439]: Gross Dividend Payout per Share data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,555]: Share Unit Price data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,671]: Total Expenses data for 2019 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,787]: Outstanding Shares data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:25,903]: Free Cash Flow data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,019]: Cash and Cash Equivalent data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,123]: Net Cash Flow from Financing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,272]: Net Cash Flow from Investing data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,388]: Net Cash Flow from Operations data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,504]: Current Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,620]: Current Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,735]: Intangible Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,851]: Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:26,989]: Total Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:27,106]: Total Debt data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:27,221]: Total Liabilities data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:27,336]: Commission Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:27,486]: Cost of Goods Sold data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:28,914]: Interest Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,049]: Investment Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,155]: Investment Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,270]: Management Expense data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,371]: Net Claims data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,502]: Losses on Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,616]: Gains on Investment Assets data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,732]: Net Income data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,848]: Net Premiums Earned data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:29,953]: Operating Profit data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,063]: Revenue data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,185]: Shareholders Equity data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,307]: Amortization data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,426]: Depreciation data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,570]: Gross Dividend Payout per Share data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,691]: Share Unit Price data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,821]: Total Expenses data for 2018 not found, inserting data as new entry
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,931]: Rows inserted > companies: 160
+<INFO> financialDB_operations_logger [2022-02-04 17:42:30,932]: ~~~ End of financial statement insertion script ~~~
